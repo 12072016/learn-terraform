@@ -5,7 +5,7 @@
 ##### echo $sample_string
 ###but#
 ###terraform
-    output "sample_string" {
+ ###   output "sample_string" {
   value = var.sample_string
 }
 
