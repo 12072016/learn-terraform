@@ -86,3 +86,4 @@ resource "aws_instance" "dispatch" {
     Name = "HelloWorld"
   }
 }
+
