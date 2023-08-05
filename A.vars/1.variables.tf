@@ -2,7 +2,7 @@
 ### shell script we will use "echo"
 ##### echo $sample_string
 ###but#
-terraform
+###terraform
     output "sample_string" {
   value = var.sample_string
 }
