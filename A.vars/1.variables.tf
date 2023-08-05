@@ -1,6 +1,3 @@
-variable "sample_string" {
-  default= "hellow World"
-}
 
 
 #####shell scripting equivalent sample_string="hellow worls"
