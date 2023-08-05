@@ -1,3 +1,6 @@
+variable "sample_string" {
+  default= "hellow World"
+}
 
 
 #####shell scripting equivalent sample_string="hellow worls"
@@ -5,7 +8,8 @@
 ##### echo $sample_string
 ###but#
 ###terraform
- ###   output "sample_string" {
+
+output "sample_string" {
   value = var.sample_string
 }
 
@@ -16,8 +20,7 @@
 ###${} is a mandatory if we include the  variable inside string
 #example:
 
-output "sample_string" {
+output "sample_string1" {
   value = "value of sample_string = ${var.sample_string}"
 }
-
 
