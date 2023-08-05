@@ -1,3 +1,8 @@
+variable "sample_string" {
+  default= "hellow World"
+}
+
+
 #####shell scripting equivalent sample_string="hellow worls"
 ### shell script we will use "echo"
 ##### echo $sample_string
@@ -19,6 +24,3 @@ output "sample_string" {
 }
 
 
-variable "sample_string" {
-  default= "hellow World"
-}
